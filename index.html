@@ -12,11 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
   </head>
   <body>
-
-      <!-- Audio (MUST be inside body) -->
+    <!-- Audio -->
     <audio id="bg-music" loop>
       <source src="god-help-the-girl_46jhdSYr.mp3" type="audio/mp3">
     </audio>
@@ -24,37 +22,54 @@
     <!-- Envelope Screen -->
     <div id="envelope-container">
       <img src="envelope.png" alt="Envelope" id="envelope" />
-      <p>♡ Letter for Shloklate! ♡</p>
+      <p>♡ Letter for You ♡</p>
     </div>
 
     <!-- Letter Screen -->
     <div id="letter-container">
       <div class="letter-window">
-        <h1 id="letter-title">Will you be my Valentine?(u can't say 'no')</h1>
+        <h1 id="letter-title">Will you be my Valentine?</h1>
         <img src="cat_heart.gif" class="cat" id="letter-cat" />
 
         <div class="buttons" id="letter-buttons">
           <img src="yes.png" class="btn yes-btn" alt="Yes" />
-
           <div class="no-wrapper">
             <img src="no.png" class="btn no-btn" alt="No" />
           </div>
         </div>
-
-        <p id="final-text" class="final-text" style="display: none">
-           <strong>Valentine Note:</strong><br>
-  Let's listen to this new fav song that reminds me of u! <br>
-  <span class="song-title">🎵 God Help The Girl by God Help The Girl 🎵</span>
-
-        </p>
       </div>
     </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-container">
+      <h2>💡 Answer these to unlock your Valentine surprise:</h2>
+      <div class="question">
+        <p>1. Unscramble this Valentine word: “esors” </p>
+        <input type="text" id="q1" />
+      </div>
+      <div class="question">
+        <p>2. I’m invisible, but you feel me in your stomach, what am I?</p>
+        <input type="text" id="q2" />
+      </div>
+      <div class="question">
+        <p>3. Finish the phrase: “Be my ____”</p>
+        <input type="text" id="q3" />
+      </div>
+      <button id="submit-quiz">Submit Answers</button>
+      <p id="quiz-feedback"></p>
+    </div>
+
+    <!-- Final Page -->
+    <div id="final-page">
+      <h1>Yippeeee! You're So Adoracool!</h1>
+      <img src="cat_dance.gif" class="cat" />
+      <p id="final-text" class="final-text">
+        <strong>Valentine Note:</strong><br>
+        Let's listen to this new fav song that reminds me of u! <br>
+        <span class="song-title">🎵 God Help The Girl by God Help The Girl 🎵</span>
+      </p>
+    </div>
+
     <script src="script.js"></script>
   </body>
-
 </html>
-
-
-
-
-

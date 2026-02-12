@@ -73,11 +73,6 @@ h1 {
     margin:0;
 }
 
-h2 {
-    font-size: 15px;
-    margin:0;
-}
-
 p {
     font-size: 40px;
 }
@@ -143,3 +138,4 @@ display: inline-block;
     border-radius: 12px;
 
 }
+
